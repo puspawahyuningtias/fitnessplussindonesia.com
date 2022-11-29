@@ -1,0 +1,13 @@
+* {
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+}
+
+@media (max-width: 992px) {
+    .reverse {
+        flex-direction: column-reverse !important;
+    }
+    #img-contact {
+        display: none;
+    }
+}
